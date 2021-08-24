@@ -56,7 +56,6 @@ Generate an intermediate frame on your pair of frames:
     $ python test.py --name ABME --is_save --Dataset Xiph_HD --dataset_root /where/is/your/Xiph_dataset/path
     $ python test.py --name ABME --is_save --Dataset X4K1000FPS --dataset_root /where/is/your/X4K1000FPS_dataset/path
 ```
-
 ### Experimental Results
 We provide interpolated frames on test datasets for fast comparison or users with limited GPU memory. Especially, the test on X4K1000FPS requires at least 20GB of GPU memory.
 - [UCF101](https://drive.google.com/uc?id=1xrC0jP1XfusMMMuUr87rhVkQqKrUGePk&export=download) 
@@ -66,7 +65,8 @@ We provide interpolated frames on test datasets for fast comparison or users wit
 - [X4K1000FPS](https://drive.google.com/uc?id=1OXyPw8_4zNWVbcd8k4Za6NDRtdTYgzbo&export=download)
 
 ![Table](/figures/Table.png "Table")
-
+### Train
+We plan to share train codes soon!
 ### Citation
 Please cite the following paper if you feel this repository useful.
 ```bibtex
