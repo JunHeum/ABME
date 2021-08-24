@@ -16,7 +16,7 @@ Change your terminal `PATH` and `LD_LIBRARY_PATH`:
   $ export LD_LIBRARY_PATH=/usr/local/cuda-11.0/lib64
   $ nvcc --version
 ```
-## Change defualt environments of the terminal
+## Change default environments of the terminal
 For change default `nvcc` version of your terminal, you should add below two lines in your `~/.bashrc`.
 ```bash
   $ gedit ~/.bashrc
