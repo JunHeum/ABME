@@ -40,7 +40,7 @@ Check your `nvcc` version:
 Install correlation layer:
 ```bash
     $ cd correlation_package
-    $ CUDA_VISIBLE_DEFVICES=0 python setup.py install
+    $ python setup.py install
 ```
 ### Quick Usage
 Generate an intermediate frame on your pair of frames:
